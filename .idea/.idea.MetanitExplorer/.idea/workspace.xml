@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45694491-f8e4-4c09-8110-701315d77272" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MetanitExplorer/readme.md" afterDir="false" />
+    <list default="true" id="45694491-f8e4-4c09-8110-701315d77272" name="Changes" comment="change progress.txt to readme.md">
+      <change afterPath="$PROJECT_DIR$/MetanitExplorer/Extention.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetanitExplorer/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MetanitExplorer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MetanitExplorer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetanitExplorer/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MetanitExplorer/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="546b8f81-2fa5-4e89-b006-49b9b1071806" />
+        <option name="url" value="https://github.com/alex12761/learnNet.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8fe5b9fa0d07425ba30fafd53baa5a7ea23880/2a/047a1fd6/String.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -20,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -67,8 +88,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661228568663</updated>
-      <workItem from="1661228592798" duration="1644000" />
+      <workItem from="1661228592798" duration="7796000" />
     </task>
+    <task id="LOCAL-00001" summary="change progress.txt to readme.md">
+      <created>1661230308744</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661230308744</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +115,28 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change progress.txt to readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="change progress.txt to readme.md" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MetanitExplorer/Program.cs</url>
+          <line>6</line>
+          <properties documentPath="C:\Users\a_arhipov\RiderProjects\learnNet\MetanitExplorer\Program.cs" initialLine="6" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="119" />
+            </startOffsets>
+            <endOffsets>
+              <option value="144" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
