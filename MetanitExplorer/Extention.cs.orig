@@ -7,13 +7,17 @@ public static class TokenExtensions
     {
         return builder.Use(async (context, next) =>
         {
-            await context.Response.WriteAsync("middleware55555");
+            await context.Response.WriteAsync("middleware");
             await next.Invoke();
         });
     }
     
     public new static string ToLower(this string builder)
     {
+<<<<<<< HEAD
+        return "new string1";
+=======
         return "new string123";
+>>>>>>> 12fbfd9de7b890e5cfcf7dfedd9abd297d22156f
     }
 }
