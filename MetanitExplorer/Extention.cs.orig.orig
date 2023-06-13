@@ -8,10 +8,6 @@ public static class TokenExtensions
         return builder.Use(async (context, next) =>
         {
 <<<<<<< HEAD
-<<<<<<< HEAD
-            await context.Response.WriteAsync("middleware");
-            await context.Response.WriteAsync("middleware55555");
-=======
             await context.Response.WriteAsync("middleware555");
 >>>>>>> af12274 (add 555 to middleware)
 =======
