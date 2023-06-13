@@ -7,13 +7,26 @@ public static class TokenExtensions
     {
         return builder.Use(async (context, next) =>
         {
+<<<<<<< HEAD
             await context.Response.WriteAsync("middleware555");
+>>>>>>> af12274 (add 555 to middleware)
+=======
+            await context.Response.WriteAsync("middleware");
+>>>>>>> origin/master
             await next.Invoke();
         });
     }
     
     public new static string ToLower(this string builder)
     {
+<<<<<<< HEAD
+        return "new string1234534";
+=======
+<<<<<<< HEAD
+        return "new string1234534";
+=======
         return "new string123453411111111111hello world";
+>>>>>>> 0f64a64 (hello world)
+>>>>>>> origin/master
     }
 }
