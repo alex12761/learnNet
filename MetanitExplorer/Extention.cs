@@ -14,6 +14,5 @@ public static class TokenExtensions
     
     public new static string ToLower(this string builder)
     {
-        return "new string lets start again test2213412";
     }
 }
