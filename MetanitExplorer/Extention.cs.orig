@@ -1,0 +1,23 @@
+﻿namespace MetanitExplorer;
+
+// методы расширения предопределенных классов
+public static class TokenExtensions
+{
+    public static IApplicationBuilder UseToken(this IApplicationBuilder builder)
+    {
+        return builder.Use(async (context, next) =>
+        {
+            await context.Response.WriteAsync("middleware");
+            await next.Invoke();
+        });
+    }
+    
+    public new static string ToLower(this string builder)
+    {
+<<<<<<< HEAD
+        return "new string1";
+=======
+        return "new string123";
+>>>>>>> 12fbfd9de7b890e5cfcf7dfedd9abd297d22156f
+    }
+}
