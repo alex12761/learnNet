@@ -10,14 +10,14 @@ public static class TokenExtensions
 <<<<<<< HEAD
             await context.Response.WriteAsync("middleware555");
 =======
-            await context.Response.WriteAsync("middleware");
->>>>>>> origin/master
+            await context.Response.WriteAsync("middleware5554321");
+>>>>>>> 1c5d804a01d8b8474f6d21f232df19c8b9c64854
             await next.Invoke();
         });
     }
     
     public new static string ToLower(this string builder)
     {
-        return "new string123453411111111111hello world";
+        return "new string lets start again test2213412";
     }
 }
