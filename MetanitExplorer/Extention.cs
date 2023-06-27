@@ -7,7 +7,7 @@ public static class TokenExtensions
     {
         return builder.Use(async (context, next) =>
         {
-            await context.Response.WriteAsync("middleware123123123123123123");
+            await context.Response.WriteAsync("middleware");
             await next.Invoke();
         });
     }
