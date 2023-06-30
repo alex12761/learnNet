@@ -15,5 +15,6 @@ public static class TokenExtensions
     public new static string ToLower(this string builder)
     {
         Console.WriteLine("test123");
+        Console.WriteLine("test");
     }
 }
